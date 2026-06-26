@@ -27,38 +27,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // --- Form Submission Handling (Front-end only) ---
-    const quoteForm = document.getElementById('quote-form');
-    const successMsg = document.getElementById('form-success');
-    const submitBtn = quoteForm.querySelector('button[type="submit"]');
-
-    quoteForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        
-        // UX: Change button state
-        const originalText = submitBtn.textContent;
-        submitBtn.textContent = 'Sending...';
-        submitBtn.disabled = true;
-        submitBtn.style.opacity = '0.7';
-
-        // Simulate network request (fake delay)
-        setTimeout(() => {
-            // Reset form
-            quoteForm.reset();
-            
-            // Show success message
-            successMsg.classList.remove('hidden');
-            
-            // Reset button
-            submitBtn.textContent = originalText;
-            submitBtn.disabled = false;
-            submitBtn.style.opacity = '1';
-
-            // Hide success message after 5 seconds
-            setTimeout(() => {
-                successMsg.classList.add('hidden');
-            }, 5000);
-
-        }, 1000);
-    });
+  
 });
