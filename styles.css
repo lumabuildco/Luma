@@ -825,15 +825,15 @@ img {
         grid-template-columns: 1fr 1fr;
     }
     
-    /* On large screens, hide the floating mobile call button */
+   
     .mobile-sticky-call {
         display: none;
-       /* Logo Styling */
+       
 .site-logo {
-    height: 45px;       /* Keeps it within the 80px header height */
-    width: auto;        /* Keeps your logo from stretching */
+    height: 45px;       
+    width: auto;        
     display: block;
-    max-width: 200px;   /* Ensures it doesn't get too wide */
+    max-width: 200px;   
 }
     }
 }
