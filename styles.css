@@ -828,5 +828,12 @@ img {
     /* On large screens, hide the floating mobile call button */
     .mobile-sticky-call {
         display: none;
+       /* Logo Styling */
+.site-logo {
+    height: 45px;       /* Keeps it within the 80px header height */
+    width: auto;        /* Keeps your logo from stretching */
+    display: block;
+    max-width: 200px;   /* Ensures it doesn't get too wide */
+}
     }
 }
