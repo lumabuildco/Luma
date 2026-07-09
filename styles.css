@@ -826,14 +826,12 @@ img {
     }
     
    
-  .mobile-sticky-call {
+ .mobile-sticky-call {
         display: none;
     }
 }
 
-/* ==========================================================================
-   Logo Controls
-   ========================================================================== */
+
 .logo {
     display: inline-flex;
     align-items: center;
@@ -842,13 +840,13 @@ img {
 
 .site-logo {
     width: 100%;
-    max-width: 200px; /* Sized down slightly so the text tagline fits nicely */
+    max-width: 200px; 
     height: auto;     
     display: block;
 }
 
 @media (max-width: 768px) {
     .site-logo {
-        max-width: 150px; /* Scaled for mobile displays */
+        max-width: 150px; 
     }
 }
