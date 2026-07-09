@@ -826,29 +826,29 @@ img {
     }
     
    
-    .mobile-sticky-call {
+  .mobile-sticky-call {
         display: none;
-       
+    }
+}
 
+/* ==========================================================================
+   Logo Controls
+   ========================================================================== */
 .logo {
     display: inline-flex;
     align-items: center;
     text-decoration: none;
 }
 
-
 .site-logo {
     width: 100%;
-    max-width: 220px; 
+    max-width: 200px; /* Sized down slightly so the text tagline fits nicely */
     height: auto;     
     display: block;
 }
 
-
 @media (max-width: 768px) {
     .site-logo {
-        max-width: 160px; 
-    }
-}
+        max-width: 150px; /* Scaled for mobile displays */
     }
 }
