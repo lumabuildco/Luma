@@ -829,11 +829,26 @@ img {
     .mobile-sticky-call {
         display: none;
        
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+
 .site-logo {
-    height: 45px;       
-    width: auto;        
+    width: 100%;
+    max-width: 220px; 
+    height: auto;     
     display: block;
-    max-width: 200px;   
+}
+
+
+@media (max-width: 768px) {
+    .site-logo {
+        max-width: 160px; 
+    }
 }
     }
 }
